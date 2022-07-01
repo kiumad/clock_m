@@ -9,6 +9,7 @@ body {
     justify-content: center;
     width: 100vw;
     height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #app {
@@ -17,7 +18,7 @@ body {
     align-items: center;
     flex-direction: column;
     width: 500px;
-    height: 500px;
+    height: 550px;
 }
 
 .c-wrapper {
@@ -49,7 +50,7 @@ body {
 
 .c-hours {
     width: 3px;
-    height: 60px;
+    height: 40px;
     background-color: rgb(255, 255, 255);
     position: absolute;
     bottom: 48.5%;
@@ -63,8 +64,8 @@ body {
 
 .c-min {
     width: 2px;
-    height: 40px;
-    background-color: rgb(119, 119, 119);
+    height: 60px;
+    background-color: rgb(188, 188, 188);
     position: absolute;
     bottom: 50%;
     left: 50%;
@@ -117,4 +118,12 @@ body {
     top: 44%;
     left: 48%;
     color: white;
+}
+
+.github {
+    padding: 10px 35px;
+    background-color: rgb(200, 200, 200);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 10px;
 }
