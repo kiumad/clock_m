@@ -1,7 +1,7 @@
 const c_nubmers = document.querySelector(".c-numbers");
 const c_numbers_count = 12;
 
-for (let i = 1; i < c_numbers_count + 1; i++) {
+for (let i = 1; i <= c_numbers_count; i++) {
   let item = document.createElement("span");
   item.textContent = "-";
   item.classList.add("c-numbers-item");
